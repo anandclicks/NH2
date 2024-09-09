@@ -1,0 +1,13 @@
+
+.dnone {
+  display: none !important;
+  opacity: 0;
+  transition: 0.25s;
+}
+.visible {
+  display: flex !important; 
+  opacity: 1;
+  transition: 0.25s;
+  position: relative;
+  z-index: 1000 !important; 
+}

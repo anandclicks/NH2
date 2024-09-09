@@ -1,0 +1,108 @@
+
+/* Large devices (phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .navbar{
+    height:  100px !important;
+  }
+  .applayBtn {
+    display: none !important;
+  }
+  .navbar-brand img {
+    height: 80px !important;
+  }
+  .boxOne {
+    height: 30px !important;
+    gap: 10px !important;
+    padding: 0px 10px ;
+  }
+  #search {
+    height: 100%;
+  }
+  .boxOne{
+    width: 350px !important;
+    height: 60px !important;
+  }
+  #serachIcon {
+   font-size: 15px !important
+  }
+  .page1 {
+    background-size: cover !important; 
+  }
+  
+  .searchResults{
+    height: 250px !important;
+    width: 100%  !important;
+    bottom: 0;
+  }
+  /* .page2 {
+    height: 345% !important;
+  }
+  .page3 {
+    height: 220% !important;
+  }
+  .page4 {
+    height: 225% !important;
+  } */
+
+  .page2 {
+    height: auto !important;  /* Change this line */
+}
+.page3 {
+    height: auto !important;  /* Change this line */
+}
+.page4 {
+    height: auto !important;  /* Change this line */
+}
+  /* footer {
+    height: 150% !important;
+  } */
+  footer {
+    height: auto !important;  /* Optional: Change this line if footer height needs adjustment */
+}
+
+  .navbar-menu{
+    display: none ;
+  }
+  .boxText {
+    width:100% !important;
+  }
+  .page2 .card  img {
+    height:auto !important;
+  }
+  
+}
+
+
+
+/* Tablets only (600px to 900px) */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+ 
+  .navbar{
+    height:  100px;
+  }
+  .applayBtn {
+    display: none !important;
+  }
+  .page2 {
+    height: inherit !important;
+  }
+  .page2 .card  img {
+    height:auto !important;
+  }
+}
+
+
+/* Extra-large tablets (1024px and up) */
+@media only screen and (min-width: 1024px) {
+ 
+    .page3-left {
+    min-height: 500px; /* Increase this value if needed */
+    padding-top: 20px; /* Ensure some padding on top */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  }
+
+
+

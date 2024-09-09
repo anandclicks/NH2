@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NH2 villas</title>
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/bootstrap-utilities.css">
+  <link rel="stylesheet" href="/css/bootstrap-grid.css">
+  <link rel="stylesheet" href="/External css/responsive.css">
+    <link rel="stylesheet" href="/External css/style.css">
+    <link rel="stylesheet" href="/External css/form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <!-- add property form  -->
+   <div class="loadingpage">
+    <div class="loadingDiv sending"><img src="/images/query/giphy.gif" alt="" /></div>
+    <div class=" send text-center"><img src="/images/query/success.gif" alt="" /></div>
+  </div>
+   <div class="col-12 col-lg-4 h-100 position-fixed addPropertyForm bg-white shadow-lg d-flex justify-content-center align-items-center">
+    <i class="ri-close-large-line position-absolute end-0 top-0 m-3 m-lg-5 cursur fs-3 fw-bold closeAddPropertyForm"></i>
+    <form class="col-lg-9 col-12 card p-3" action="">
+      <h2 class="text-center">Add property</h2>
+      <div class="form-group">
+        <input type="text" class="form-control py-3" placeholder="Name*" required>
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control py-3" placeholder="Mobile number*" required>
+      </div>
+      <div class="form-group">
+        <input class="form-control py-3" placeholder="Property location" type="text" name="" id=""/>
+      </div>
+      <div class="form-group">
+        <input class="form-control py-3" type="number" placeholder="Number of bed*" name="" id=""/>
+      </div>
+      <div class="form-group">
+        <input class="form-control py-3" type="file" placeholder="Attach property images*" name="" id=""/>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block py-2 px-5 w-100">Submit</button>
+    <p class="mt-3 text-center">Need Assistance? Call at <a class="text-decoration-none text-dark" href="tel:+91 9599050903">+91 9599050903</a></p>
+      </div>
+    </form>
+  </div>
+  <div class="main">
+    <div style="background-color: #000000b9;" class="container-flued formContainer h-100 w-100 position-fixed top-0 start-0 z-3 d-flex justify-content-center align-items-center dnone">
+      <form id="queryForm" class="card p-4 col-12 col-lg-4 shadow-sm mt-5 mt-lg-0">
+        <i id="formClose" class="fa-solid fa-xmark fs-3 position-absolute end-0 top-0 p-3"></i>
+        <h4>Get personally <span class="highlight">connected with us.</span></h4>
+
+        <div class="form-group">
+            <input id="name" type="text" class="form-control py-3" placeholder="Name*" name="name" required>
+        </div>  
+        <div class="form-group">
+            <input id="mobileNumber" type="number" class="form-control py-3" placeholder="Mobile number*" name="mobileNumber" required>
+        </div>
+        <div class="form-group">
+            <select class="form-control py-3" name="propertyName" id="propertyName">
+                <option value="Nh²NOD416">Nh²NOD416</option>
+                <option value="NH²NOD425">NH²NOD425</option>
+                <option value="NH²NOD438">NH²NOD438</option>
+                <option value="NH²NOD101">NH²NOD101</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <select class="form-control py-3" name="roomSharing" id="roomSharing">
+                <option value="Single sharing">Single sharing</option>
+                <option value="Double sharing">Double sharing</option>
+            </select>
+        </div>
+        <input type="submit" class="btn btn-primary btn-block py-2 px-5 w-100" value="Submit"/>
+        <p class="mt-3 text-center">Need Assistance? Call at <a class="text-decoration-none text-dark" href="tel:+91 9599050903">+91 9599050903</a></p>
+    </form>   
+  </div>
+  <div class="villaoneDtls container-flued position-relative">
+     <!-- navbar start  -->
+     <nav class="navbar navbar-expand-lg shadow-lg">
+      <div class="navbar-menu" id="navbarMenu">
+        <!-- right now this is empathy  -->
+        <ul class="d-flex flex-column">
+          <h2><span>Follow</span> us on</h2>
+          <div class="d-flex gap-4 fs-3">
+            <a class="text-decoration-none text-white" href="https://www.facebook.com/NH2Stays/"><i class="fa-brands fa-facebook"></i></a>
+            <a class="text-decoration-none text-white" href="https://www.instagram.com/nh2stays/"><i class="fa-brands fa-square-instagram"></i></a>
+            <a class="text-decoration-none text-white" href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a class="text-decoration-none text-white" href="https://www.linkedin.com/company/nh2stays/"><i class="fa-brands fa-linkedin"></i></a>
+            <a class="text-decoration-none text-white" href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="d-flex gap-2">
+        <a href="/pg-in-noida.html" class="btn btnOne px-4 rounded-0 mt-4 py-2 text-white">See All PG's <i class="ri-arrow-right-up-line"></i></a>
+        <a class="btn btnOne bg-black px-4 rounded-0 mt-4 py-2 text-white addProperty">Add property <i class="ri-add-circle-fill"></i></a>
+      </div>
+        
+    </div>
+        <div class="container-flued pb-3 navforscroll bg-white m-0 shadow-lg">
+          <div class="container navbar">
+              <!-- Company Logo -->
+              <a class="navbar-brand" href="/index.html">
+                  <img src="/images/logo.jpg" alt="Company Logo" >
+              </a>
+              <!-- Navbar Toggler -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- Navbar Links -->
+              <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                  <ul class="navbar-nav">
+                      <li class="nav-item mx-2">
+                          <a class="nav-link findPg" href="/pg-in-noida.html"><i class="fa-solid fa-magnifying-glass"></i> Find Your PG</a>
+                      </li>
+                      <li class="nav-item mx-2">
+                          <a class="nav-link" href="tel:+91 9599050903"><i class="fa-solid fa-phone"></i> +91 9599050903</a>
+                      </li>
+                      <li class="nav-item mx-2">
+                          <a class="nav-link addProperty" href="#"><i class="fa-solid fa-circle-plus"></i> Add Property</a>
+                      </li>
+                  </ul>
+              </div>
+              <!-- Apply Button -->
+              <div class="d-flex applayBtn">
+                  <a href="#" class=" btn btnOne py-3 px-5 formOpen">Book your PG <i class="fa-solid fa-plus"></i></a>
+              </div>
+          </div>
+        </div>
+        <div class="container navbar">  
+          <!-- Company Logo -->
+          <a class="navbar-brand" href="/index.html">
+              <img src="/images/logo.jpg" alt="Company Logo" >
+          </a>
+          <!-- Navbar Toggler -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Navbar Links -->
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+              <ul class="navbar-nav">
+                  <li class="nav-item mx-2">
+                      <a class="nav-link findPg" href="/pg-in-noida.html"><i class="fa-solid fa-magnifying-glass"></i> Find Your PG</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                      <a class="nav-link" href="tel:+91 9599050903"><i class="fa-solid fa-phone"></i> +91 9599050903</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                      <a class="nav-link" href="#"><i class="fa-solid fa-circle-plus"></i> Add Property</a>
+                  </li>
+              </ul>
+          </div>
+          <!-- Apply Button -->
+          <div class="d-flex applayBtn">
+              <a href="#" class=" btn btnOne py-3 px-5 formOpen">Book your PG <i class="fa-solid fa-plus"></i></a>
+          </div>
+      </div>
+      </nav>
+      </div>
+       <!-- navbar complite  -->
+       <div class="container villaOneDtlsPage py-2 py-lg-5">
+        <!-- room images  -->
+         <div class="row roomsRo mt-5 align-items-center">
+          <!-- left big img  -->
+          <div class="col-12 col-lg-6 h-100">
+            <img style="width: 100%; object-fit: cover;" src="/images/NH2NOD101/17.jpeg" alt="">
+          </div>
+          <!-- right tow images  -->
+          <div class="col-12 col-lg-6 rightside4imges">
+            <div class="col-6 p-1"><img style="width: 100%; height: 100%; object-fit: cover;" src="/images\NH2NOD101\1.png" alt=""></div>
+            <div class="col-6 p-1"><img style="width: 100%; height: 100%; object-fit: cover;" src="/images\NH2NOD101\13.jpeg" alt=""></div>
+            <div class="col-6 p-1"><img style="width: 100%; height: 100%; object-fit: cover;" src="/images\NH2NOD101\21.jpeg" alt=""></div>
+            <div class="col-6 p-1"><img style="width: 100%; height: 100%; object-fit: cover;" src="/images\NH2NOD101\22.jpeg" alt=""></div>
+          </div>
+         </div>
+         <!-- basic dtls  -->
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <h2 class="m-0">Nh2NOD101</h2>
+            <li class="list-unstyled highlight my-2 mb-2 ms-0">Chhaprauli Banger, front side of - Shanti international school, Sector 168 Expressway, Gautam Budh Nagar, Noida 201305, Uttar Pradesh </li>
+            <a href="https://www.google.com/maps/place/NH2Stays+-+NOD416+%7C+Co-Living/@28.5451917,77.3906705,15z/data=!4m6!3m5!1s0x390ce9aba31d0ef5:0x38af5e61124f737c!8m2!3d28.5451917!4d77.3906705!16s%2Fg%2F11vy1fk0ty?entry=ttu" class="btn btn-primary py-2 px-4 mb-3" target="_blank">Location <i class="ri-map-pin-line"></i></a>
+            <ul class="list-unstyled d-flex gap-3 fs-5">
+              <li><i class="fa-solid fa-bed"></i>150+ bed</li>
+              <li><i class="fa-solid fa-restroom"></i>74+ bath</li>
+              <li><i class="fa-solid fa-chart-area"></i>7200 sqft</li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-6 d-flex align-items-start align-items-lg-end flex-column">
+            <ul class="d-flex gap-3 list-unstyled fs-5">
+              <li><i class="fa-solid fa-heart"></i></li>
+              <li><i class="fa-solid fa-copy"></i></li>
+              <li><i class="fa-solid fa-share-nodes"></i></li>
+              <li><i class="fa-solid fa-print"></i></li>
+          </ul>
+          <div class="d-flex gap-3 pt-3 flex-wrap justify-content-start justify-content-lg-center">
+            <div class="d-flex flex-column shadow-sm p-2 rounded-3">
+              <p class="m-0">Single sharing with <b>food</b>😋</p>
+              <h2 class="m-0">₹19,000 <span style="color: #585858;"  class="text-decoration-line-through fs-5">₹25,000</span></h2>
+            </div>
+            <div class="d-flex flex-column shadow-sm p-2 rounded-3">
+              <p class="m-0">Double sharing with <b>food</b>😋</p>
+              <h2 class="m-0">₹10,000 <span style="color: #585858;" class="text-decoration-line-through fs-5">₹12,000</span></h2>
+            </div>
+            <div class="d-flex flex-column shadow-sm p-2 rounded-3">
+              <p class="m-0">Triple sharing with <b>food</b>😋</p>
+              <h2 class="m-0">₹8,000 <span style="color: #585858;" class="text-decoration-line-through fs-5">₹10,000</span></h2>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      <!-- page 2 for villa dtls  -->
+       <div class="container page2forVillaDtls">
+        <div class="row align-items-center">
+          <div class="col-md-6 page3-left shadow-sm p-3">
+            <!-- <div class="row">
+              <h3>Property Description</h3>
+              <p class="">Property name- NH²NOD425</p>
+              </div> -->
+              <div class="row">
+               <h3>Description</h3>
+               <ul class="list-unstyled d-flex flex-column ps-2 ">
+                <li>🚇Noida Sector 142 Metro Station, 500 MTR</li>
+                <li>🏋️Gym 200 MTR </li>
+                <li>🍱Market within 100 MTR</li>
+                <li>🏥Jaypee Hospital within 1 KM</li>
+               </ul>
+              
+              </div>
+              <div class="row p-3 ps-0">
+                <h3>Room Facilities </h3>
+               <ul class="list-unstyled d-flex flex-row flex-wrap">
+                <li class="bg-light p-2 shadow-sm m-2"><img style="width: 30px; margin-right: 10px;" src="/images/ac].png" alt="">Air Conditioning</li>
+                <li class="bg-light p-2 shadow-sm m-2"><img style="width: 30px; margin-right: 10px;" src="/images/attached-washroom.png" alt="">Attached Washroom</li>
+                <li class="bg-light p-2 shadow-sm m-2"><img style="width: 30px; margin-right: 10px;" src="/images/cupboard.png" alt="">Spacious Cupboard</li>
+                <li class="bg-light p-2 shadow-sm m-2"><img style="width: 30px; margin-right: 10px;" src="/images/led-light.png" alt="">Tubelight / LED</li>
+                <li class="bg-light p-2 shadow-sm m-2"><img style="width: 30px; margin-right: 10px;" src="/images/bed-with-mattress.png" alt="">Bed With Mattress</li>
+                <li class="bg-light p-2 shadow-sm m-2"><img style="width: 30px; margin-right: 10px;" src="/images/study-table.png" alt="">Study Table & Chair</li>
+                <li class="bg-light p-2 shadow-sm m-2"><img style="width: 30px; margin-right: 10px;" src="/images/windows.png" alt="">Window</li>
+               </ul>
+              </div>
+          </div>
+          <div class="col-md-6 d-flex justify-content-end">
+            <div class="card p-4 col-12 col-lg-8 shadow-sm">
+              <h4>Get personally <span class="highlight">connected with us.</span></h4>
+              <form id="queryForm">
+                <div class="form-group">
+                  <input id="name" type="text" class="form-control py-3" placeholder="Name*" name="name" required>
+              </div>  
+              <div class="form-group">
+                  <input id="mobileNumber" type="number" class="form-control py-3" placeholder="Mobile number*" name="mobileNumber" required>
+              </div>
+              <div class="form-group">
+                  <select class="form-control py-3" name="propertyName" id="propertyName">
+                      <option value="Nh²NOD416">Nh²NOD416</option>
+                      <option value="NH²NOD425">NH²NOD425</option>
+                      <option value="NH²NOD438">NH²NOD438</option>
+                      <option selected value="NH²NOD101">NH²NOD101</option>
+                  </select>
+              </div>
+              <div class="form-group">
+                  <select class="form-control py-3" name="roomSharing" id="roomSharing">
+                      <option value="Single sharing">Single sharing</option>
+                      <option value="Double sharing">Double sharing</option>
+                      <option value="Double sharing">Triple sharing</option>
+                  </select>
+              </div>
+                <button type="submit" class="btn btn-primary btn-block py-2 px-5 w-100">Submit</button>
+              <p class="mt-3 text-center">Need Assistance? Call at <a class="text-decoration-none text-dark" href="tel:+91 9599050903">+91 95990 50903</a></p>
+                </div>
+                </div>
+              </form>
+            </div>
+       </div>
+       <div class="container d-flex justify-content-center">
+        <div class="row">
+         <div class="col-lg-6 col-12"> <video class="rounded-3 overflow-hidden" controls autoplay muted loop src="../images/NH2.mp4"></video></div>
+         <div class="col-lg-6 col-12 d-flex flex-column justify-content-center align-content-center">
+           <div class="box">
+             <h1 class="fs-1">Welcome to <span class="highlight">NH2 Stays</span>: Your Perfect Blend of Comfort and Convenience</h1>
+             <p class="fs-5">NH2 Stays offers prime living with easy access to a metro station, a nearby hospital, a modern gym, and a bustling market. Enjoy the fresh air and a peaceful environment in our well-connected and vibrant neighborhood. Choose NH2 Stays for a comfortable, convenient, and healthy lifestyle. Your ideal home away from home awaits!</p>
+           </div>
+       </div>
+        </div>
+        </div>
+       <div class="container p-0">
+        <h2 class="fs-1 mt-3 ms-2 ms-lg-0 mt-lg-0">Gallery</h2>
+       </div>
+       <div class="container gallery d-flex h-25 overflow-scroll ">
+        <div class="container gallery2 d-flex h-100  ">
+         
+         <a href="/images/Nh2NOD101/14.jpeg" target="_blank" class="col-12 col-lg-3 bg-success m-1 rounded-3 overflow-hidden card"><img class="h-100 w-100 object-fit-cover" src="/images/Nh2NOD101/14.jpeg" alt=""></a>
+         <a href="/images/Nh2NOD101/19.jpeg" target="_blank" class="col-12 col-lg-3 bg-success m-1 rounded-3 overflow-hidden card"><img class="h-100 w-100 object-fit-cover" src="/images/Nh2NOD101/19.jpeg" alt=""></a>
+          <a href="/images/Nh2NOD101/30.jpeg" target="_blank" class="col-12 col-lg-3 bg-success m-1 rounded-3 overflow-hidden card"><img class="h-100 w-100 object-fit-cover" src="/images/Nh2NOD101/30.jpeg" alt=""></a>
+          <a href="/images/Nh2NOD101/17.jpeg" target="_blank" class="col-12 col-lg-3 bg-success m-1 rounded-3 overflow-hidden card"><img class="h-100 w-100 object-fit-cover" src="/images/Nh2NOD101/17.jpeg" alt=""></a>
+          <a href="/images/Nh2NOD101/14.jpeg" target="_blank" class="col-12 col-lg-3 bg-success m-1 rounded-3 overflow-hidden card"><img class="h-100 w-100 object-fit-cover" src="/images/Nh2NOD101/14.jpeg" alt=""></a>
+          <a href="/images/Nh2NOD101/16.jpeg" target="_blank" class="col-12 col-lg-3 bg-success m-1 rounded-3 overflow-hidden card"><img class="h-100 w-100 object-fit-cover" src="/images/Nh2NOD101/16.jpeg" alt=""></a>
+          <a href="/images/Nh2NOD101/5.jpeg" target="_blank" class="col-12 col-lg-3 bg-success m-1 rounded-3 overflow-hidden card"><img class="h-100 w-100 object-fit-cover" src="/images/Nh2NOD101/5.jpeg" alt=""></a>
+          <a href="/images/Nh2NOD101/20.jpeg" target="_blank" class="col-12 col-lg-3 bg-success m-1 rounded-3 overflow-hidden card"><img class="h-100 w-100 object-fit-cover" src="/images/Nh2NOD101/20.jpeg" alt=""></a>
+          
+          <a href="/images/Nh2NOD101/11.jpeg" target="_blank" class="col-12 col-lg-3 bg-success m-1 rounded-3 overflow-hidden card"><img class="h-100 w-100 object-fit-cover" src="/images/Nh2NOD101/11.jpeg" alt=""></a>
+         
+          <a href="/images/Nh2NOD101/28.jpeg" target="_blank" class="col-12 col-lg-3 bg-success m-1 rounded-3 overflow-hidden card"><img class="h-100 w-100 object-fit-cover" src="/images/Nh2NOD101/28.jpeg" alt=""></a>
+         
+          <a href="/images/Nh2NOD101/24.jpeg" target="_blank" class="col-12 col-lg-3 bg-success m-1 rounded-3 overflow-hidden card"><img class="h-100 w-100 object-fit-cover" src="/images/Nh2NOD101/24.jpeg" alt=""></a>
+          
+         </div>
+       </div>
+       <!-- map location  -->
+        <div style="height: auto;" class="container">
+          <h1 class="my-5">Nearby <span class="highlight fw-bold">Properties</span></h1>
+          <div class="page2-row row h-100">
+
+          </div>
+        </div>
+        <!-- footer  -->
+           <footer>
+            <div class="container h-100 ">
+              <div class="row h-100 align-items-center">
+                  <div class="col-md-4">
+                      <div class="content-box">
+                        <a class="text-decoration-none" href="/index.html"><img style="height: 50px;" src="/images/black_logo.png" alt="NH2" class="mb-3 "></a>
+                          <p>
+                              You know, when we go out of our home to the city in search of studies and jobs, we get everything very easily but we do not get a happy home.
+                          </p>
+                          <p>Follow us at</p>
+                          <div class="d-flex gap-4 fs-3">
+                              <a class="text-decoration-none text-white" href="https://www.facebook.com/NH2Stays/"><i class="fa-brands fa-facebook"></i></a>
+                              <a class="text-decoration-none text-white" href="https://www.instagram.com/nh2stays/"><i class="fa-brands fa-square-instagram"></i></a>
+                              <a class="text-decoration-none text-white" href="#"><i class="fa-brands fa-twitter"></i></a>
+                              <a class="text-decoration-none text-white" href="https://www.linkedin.com/company/nh2stays/"><i class="fa-brands fa-linkedin"></i></a>
+                              <a class="text-decoration-none text-white" href="#"><i class="fa-brands fa-youtube"></i></a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="contact-info ">
+                          <h5>Useful Links</h5>
+                          <ul class="list-unstyled d-flex flex-column">
+                              <li class="my-2"><i class="ri-arrow-right-line"></i> <a class="text-decoration-none text-white" href="#">Home</a></li>
+                              <li class="my-2"><i class="ri-arrow-right-line"></i> <a class="text-decoration-none text-white" href="#">About Us</a></li>
+                              <li class="my-2"><i class="ri-arrow-right-line"></i> <a class="text-decoration-none text-white" href="#">Blog</a></li>
+                              <li class="my-2"><i class="ri-arrow-right-line"></i> <a class="text-decoration-none text-white" href="/pg-in-noida.html">All PG'S for you</a></li>
+                              <li class="my-2"><i class="ri-arrow-right-line"></i> <a class="text-decoration-none text-white" href="#">User Policy</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-md-4 ">
+                    <h5>Office Information</h5>
+                    <div class="d-flex gap-2 align-items-center">
+                      <i class="fa-solid fa-map fs-2"></i>
+                      <p><strong>Address</strong><br>
+                        KH.NO-22/8,Holambi kala,Near Railway Station, New Delhi- 110082
+                    </p>
+                    </div>
+                   <div class="d-flex gap-2 align-items-center">
+                    <i class="fa-solid fa-phone fs-2"></i>
+                    <p><strong>Phone Number</strong><br>
+                      +91 95990 50903
+                  </p>
+                   </div>
+                   <div class="d-flex gap-2 align-items-center">
+                    <i class="fa-solid fa-envelope fs-2"></i>
+                     <p><strong>Email Address</strong><br>
+                         <a class="text-decoration-none text-white" href="mailto:info@nh2stays.com">info@nh2stays.com</a>
+                     </p>
+                   </div>
+                  </div>
+              </div>
+          </div>
+           </footer>    
+      </div>
+      <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+      <script src="/js/villasscript.js"></script> -->
+  <script  src="/js/villaSuggeston.js "></script>
+  <script src="/js/toggleNav.js"></script>
+   <!-- Load the Google Maps API script -->
+   <!-- <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAQLuxPQpgXnnm0UdERkoAYpXXj9gKXaU&callback=initMap"></script> -->
+  <script src="/js/form.js"></script>
+  <script src="../js/apiCall.js"></script>
+</body>
+</html>

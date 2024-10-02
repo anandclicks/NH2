@@ -24,7 +24,7 @@ const listings = [
   {
   
     id: 1,
-    image: "../images/NH2NOD101/1.png",
+    image: "../images/NH2NOD101/1.jpg",
     title: "NH²NOD101",
     city:'Sector 168 Expressway, Gautam Budh Nagar, Noida 201305, Uttar Pradesh ',location: "",
     pagelink : "../pg-in-noida/Nh2NOD101.html",

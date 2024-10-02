@@ -2,7 +2,7 @@ const listings = [
   {
   
     id: 1,
-    image: "../images/NH2NOD101/1.png",
+    image: "../images/NH2NOD101/1.jpg",
     title: "NH²NOD101",
     city:'Sector 168 Expressway, Gautam Budh Nagar, Noida 201305, Uttar Pradesh ',location: "",
     pagelink : "../pg-in-noida/Nh2NOD101.html",
@@ -40,8 +40,8 @@ const listings = [
     bed: "15",
     bath: "4",
     sqft: 1200,
-    price: "₹5000",
-    oldPrice : "₹7000",
+    price: "₹8500",
+    oldPrice : "₹11000",
     ratting : "4.5",
     rattingStatus : "Excellent",
     ratedPeapleNumber : "103",
